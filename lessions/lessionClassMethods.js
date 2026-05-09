@@ -2,6 +2,14 @@
 export function printName(person) {
     console.log(`The person's name is ${person.name}`);
 }
+export function printName2(person) {
+    console.log(`The person's name is ${person}`);
+}
+
+export function printNumbers(...number) {
+    console.log(`The person's name is ${number}`);
+}
+
 // Classes are blueprints for creating objects. They encapsulate data and functions that operate on that data. In the example above, the Person class has a constructor that initializes the name and age properties, and it has two methods: greet() and celebrateBirthday(). The constructor is a special method that is called when a new instance of the class is created, allowing us to set up the initial state of the object.
 export default class Person {
     constructor(name, age) {
