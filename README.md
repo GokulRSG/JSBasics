@@ -49,13 +49,66 @@ Shows how to use classes:
 - Instantiating objects with the `new` keyword
 - Calling methods on class instances
 
+### lessionArrayMethods.js
+Demonstrates array methods and manipulations:
+- Accessing array elements
+- Iterating with loops and forEach
+- Array destructuring
+- Transformations (map, filter, reduce)
+- Modifying arrays (reverse, slice, splice, sort)
+- Sorting arrays of objects
+
+### lessionCallbackFunction.js
+Explains callback functions:
+- Passing functions as arguments
+- Synchronous and asynchronous callbacks
+- Examples of callback usage in functions
+
+### lessionForloop.js
+Covers different types of for loops in JavaScript:
+- Traditional for loop
+- For...of loop for iterables
+- For...in loop for object properties
+- ForEach method for arrays
+
+### lessionjsDefultFunctions.js
+Introduces built-in JavaScript functions:
+- Console, alert, prompt
+- Type checking and conversion (parseInt, parseFloat, isNaN, typeof)
+- Array and JSON methods
+- Math functions (abs, ceil, floor, etc.)
+
+### lessionObjectDestrucre.js
+Demonstrates object destructuring:
+- Basic object destructuring
+- Nested object destructuring
+- Destructuring in function parameters
+- Destructuring in loops
+- Default values in destructuring
+
+### lessionTSExample.ts
+Introduces TypeScript basics:
+- Differences from JavaScript
+- Type annotations
+- Interfaces
+- Classes
+- Generics
+- Type inference
+
+### lessionTypeConversion.js
+Explains type conversion in JavaScript:
+- Implicit type conversion (coercion)
+- Explicit type conversion
+- Boolean conversion
+- Examples with strings, numbers, and arrays
+
 ## Running the Lessons
 
 Each lesson file can be run individually using Node.js:
 
 ```bash
-node lessions/lesson2.js
-node lessions/lessonFunctions.js
+node 
+node 
 # etc.
 ```
 
