@@ -4,6 +4,9 @@ const person = {
     age: 30,
     city: "New York"
 };
+console.log(person.name); // Output: "Alice"
+console.log(person.age); // Output: 30
+console.log(person.city); // Output: "New York"
 const { name, age, city } = person;
 console.log(name);
 console.log(age);
