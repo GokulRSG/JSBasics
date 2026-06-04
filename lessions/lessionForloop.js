@@ -26,3 +26,6 @@ numbers.forEach((element) => {
 numbers.forEach((element, index) => {
     console.log(`Index: ${index}, Element: ${element}`);
 });
+
+
+
